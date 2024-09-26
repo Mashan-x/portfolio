@@ -25,15 +25,12 @@ nav ul li {
 
 nav ul li a {
     color: #4CAF50; /* новый цвет текста */
-    text-decoration: underline; /* подчеркивание */
+    text-decoration: none; /* подчеркивание */
     font-weight: bold; /* жирный шрифт */
 }
 
 nav ul li a:hover {
     color: #fff; /* цвет при наведении */
-    background-color: #4CAF50; /* фон при наведении */
-    padding: 5px 10px; /* отступы */
-    border-radius: 5px; /* закругленные углы */
 }
 
 section {
@@ -53,4 +50,15 @@ footer {
     padding: 10px 0;
     background: #333;
     color: #fff;
+}
+
+h3 a {
+    color: #3498db; /* новый цвет текста гиперссылки */
+    text-decoration: none; /* подчеркивание */
+    font-weight: bold; /* жирный шрифт */
+}
+
+h3 a:hover {
+    color: #CD5C5C; /* цвет при наведении */
+    text-decoration: none; /* убираем подчеркивание при наведении */
 }
