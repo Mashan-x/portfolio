@@ -24,8 +24,16 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
+    color: #4CAF50; /* новый цвет текста */
+    text-decoration: underline; /* подчеркивание */
+    font-weight: bold; /* жирный шрифт */
+}
+
+nav ul li a:hover {
+    color: #fff; /* цвет при наведении */
+    background-color: #4CAF50; /* фон при наведении */
+    padding: 5px 10px; /* отступы */
+    border-radius: 5px; /* закругленные углы */
 }
 
 section {
